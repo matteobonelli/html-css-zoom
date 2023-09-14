@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+	--color-primary-dark: #000000;
+	--color-secondary-dark: #222222;
+	--color-button-grey: #4a4a4a;
+	--color-button-light: #ffffff;
+	--color-red-primary: #b32d2d;
+	--color-green-primary: #4bc800;
+}
