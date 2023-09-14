@@ -53,11 +53,32 @@ header{
     color: var(--color-button-light);
     padding: 4px;
 }
+.utility-container{
+    color: var(--color-button-light);
+}
+.icons{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.action{
+    font-size: 0.9em;
+}
+.zoom-button{
+    padding: 10px;
+}
 /*flex*/
-.d-flex{
+.wrap-flex{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     align-self: center;
+}
+.sb-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-flow: row nowrap;
 }
