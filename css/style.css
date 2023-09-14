@@ -23,12 +23,26 @@ header{
     width: 100%;
     height: 100vh;
     background-color: var(--color-primary-dark);
+    position: relative;
+}
+.absolute-container{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: var(--color-button-light);
+    z-index: 10000;
+}
+.utility{
+    background-color: var(--color-button-grey);
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
 }
 .main{
     background-color: var(--color-primary-dark);
     height: calc(100vh - 71px);
     overflow-y: auto;
-    padding: 20px 70px;
+    padding: 40px 70px;
 }
 .zoom-bar{
     height: 70px;
