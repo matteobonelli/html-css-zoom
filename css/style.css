@@ -10,4 +10,54 @@
 	--color-button-light: #ffffff;
 	--color-red-primary: #b32d2d;
 	--color-green-primary: #4bc800;
+    --color-transparent: #4a4a4a99;
+}
+.debug{
+    border: 1px solid white;
+}
+header{
+    margin-bottom: 70px;
+    background-color: var(--color-primary-dark);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-primary-dark);
+}
+.main{
+    background-color: var(--color-primary-dark);
+    height: calc(100vh - 91px);
+    overflow-y: auto;
+    padding: 20px 70px;
+}
+.zoom-bar{
+    height: 90px;
+    background-color: var(--color-secondary-dark);
+    display: block;
+}
+.cards{
+    width: calc(100% / 7);
+    padding: 7px 3px;
+    min-width: 100px;
+    position: relative;
+}
+.cards img{
+    width: 100%;
+    display: block;
+}
+.users{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: var(--color-transparent);
+    color: var(--color-button-light);
+    padding: 4px;
+}
+/*flex*/
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
